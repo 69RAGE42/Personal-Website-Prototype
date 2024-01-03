@@ -150,7 +150,7 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     background: transparent;
-    color:var(--primColor);
+    color: var(--primColor);
     border-color: var(--primColor);
     border-width: 2px;
     border-top-left-radius: 20px;
@@ -162,13 +162,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 #searchBar::placeholder { 
-    color: var(--primColor); 
+    color: var(--primColor);
     opacity: 0.75;
     font-size: 22px;
 }
 
 #searchBar::selection {
-    color:var(--secColor);
+    color:var(--secColor);  
     background-color: var(--primColor);
 }
 
